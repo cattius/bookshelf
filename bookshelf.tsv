@@ -1,8 +1,14 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
 Could a Neuroscientist Understand a Microprocessor?	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5230747/pdf/pcbi.1005268.pdf	papers	intelligence-computation	neuroscience	cpu	computer-architecture
-Does register selection matter to performance on x86 CPUs?	https://fiigii.com/2020/02/16/Does-register-selection-matter-to-performance-on-x86-CPUs/	blog	cpu	computer-architecture	x86
-A note on mask registers	https://travisdowns.github.io/blog/2019/12/05/kreg-facts.html	blog	cpu	computer-architecture	x86
-Gathering Intel on Intel AVX-512 Transitions	https://travisdowns.github.io/blog/2020/01/17/avxfreq1.html	blog	cpu	computer-architecture	x86
-Where do interrupts happen?	https://travisdowns.github.io/blog/2019/08/20/interrupts.html	blog	cpu	computer-architecture	x86
-Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection	https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html	blog	cpu	computer-architecture	x86
-CPU Introspection: Intel Load Port Snooping	https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html	blog	cpu	computer-architecture	x86	mds-attacks
+Does register selection matter to performance on x86 CPUs?	https://fiigii.com/2020/02/16/Does-register-selection-matter-to-performance-on-x86-CPUs/	blog	cpu	computer-architecture	intel
+A note on mask registers	https://travisdowns.github.io/blog/2019/12/05/kreg-facts.html	blog	cpu	computer-architecture	intel
+Gathering Intel on Intel AVX-512 Transitions	https://travisdowns.github.io/blog/2020/01/17/avxfreq1.html	blog	cpu	computer-architecture	intel
+Where do interrupts happen?	https://travisdowns.github.io/blog/2019/08/20/interrupts.html	blog	cpu	computer-architecture	intel
+Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection	https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html	blog	cpu	computer-architecture	intel
+CPU Introspection: Intel Load Port Snooping	https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html	blog	cpu	computer-architecture	intel	transient-attacks
+A Systematic Evaluation of Transient Execution Attacks and Defences	https://arxiv.org/abs/1811.05441	papers	cpu	intel	amd	arm	transient-attacks
+Fallout: Leaking Data on Meltdown-resistant CPUs	https://mdsattacks.com/files/fallout.pdf	papers	cpu	intel	transient-attacks
+ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	cpu	intel	transient-attacks
+RIDL: Rogue In-Flight Data Load (With Addenda)	https://mdsattacks.com/files/ridl.pdf	papers	cpu	intel	transient-attacks
+Meltdown: Reading Kernel Memory from User Space	https://meltdownattack.com/meltdown.pdf	papers	cpu	intel	amd	arm	transient-attacks
+Spectre Attacks: Exploiting Speculative Execution	https://spectreattack.com/spectre.pdf	papers	cpu	intel	amd	arm	transient-attacks
