@@ -25,3 +25,5 @@ LVI: Hijacking Transient Execution Through Microarchitectural Load Value Injecti
 Are We Referring to the Same x86 64?: Detection of Cache Events in AMD's Zen Micro-architecture	https://ieeexplore.ieee.org/document/8885326	papers	amd	cpu	cache-attacks
 CHE 323 Micro and Nanofabrication	https://www.youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo_	course	video	cpu
 (Mis)configuring page tables	https://www.youtube.com/watch?v=YO9dk5L5FMY	talk	video	intel	amd	
+Automated Reverse Engineering and Privacy Analysis of Modern Cars	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1iqVRLzNIZ2	papers
+Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication	https://www.computer.org/csdl/proceedings-article/sp/2020/349700a842/1iqVRvVSnwA	papers	user-study
