@@ -23,4 +23,5 @@ AMD64 Architecture Programmer's Manual Volume 5: 64-Bit Media and x87 Floating-P
 Getting Started with Bare Metal Assembly (using UEFI services)	https://johv.dk/blog/bare-metal-assembly-tutorial.html	blog	intel	amd
 LVI: Hijacking Transient Execution Through Microarchitectural Load Value Injection	https://lviattack.eu/lvi.pdf	papers	intel	cpu	transient-attacks
 Are We Referring to the Same x86 64?: Detection of Cache Events in AMD's Zen Micro-architecture	https://ieeexplore.ieee.org/document/8885326	papers	amd	cpu	cache-attacks
-
+CHE 323 Micro and Nanofabrication	https://www.youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo_	course	video	cpu
+(Mis)configuring page tables	https://www.youtube.com/watch?v=YO9dk5L5FMY	talk	video	intel	amd	
