@@ -27,7 +27,7 @@ Hardware is the New Software	https://www.microsoft.com/en-us/research/wp-content
 Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication	https://sanamlyastani.github.io/publication/oakland20/oakland20.pdf	papers	usable-security	reading-group
 I Have No Idea What I'm Doing - On the Usability of Deploying HTTPS	https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-krombholz.pdf	papers	usable-security
 If HTTPS Were Secure, I Wouldn't Need 2FA - End User and Administrator Mental Models of HTTPS	https://publications.cispa.saarland/2788/1/HTTPS_Mental_Models%20%2814%29.pdf	papers	usable-security
-I Know Where You Parked Last Summer: Automated Reverse Engineering and Privacy Analysis of Modern Cars		https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1j2LgepkJj2	papers	reading-group
+I Know Where You Parked Last Summer: Automated Reverse Engineering and Privacy Analysis of Modern Cars	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1j2LgepkJj2	papers	reading-group
 IODINE: Verifying Constant-Time Execution of Hardware	https://ranjitjhala.github.io/static/iodine.pdf	papers		uarch	reading-group	side-channels
 Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU	https://download.vusec.net/papers/glitch_sp18.pdf	papers	uarch	reading-group	intel	arm	side-channels
 IJON: Exploring Deep State Spaces via Fuzzing	https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf	papers	reading-group
