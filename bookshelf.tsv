@@ -1,5 +1,5 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
-Could a Neuroscientist Understand a Microprocessor?	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5230747/pdf/pcbi.1005268.pdf	papers	uarch	computation
+Could a Neuroscientist Understand a Microprocessor?	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5230747/pdf/pcbi.1005268.pdf	papers	uarch	brain-computation
 Does register selection matter to performance on x86 CPUs?	https://fiigii.com/2020/02/16/Does-register-selection-matter-to-performance-on-x86-CPUs/	blog	uarch	intel
 A note on mask registers	https://travisdowns.github.io/blog/2019/12/05/kreg-facts.html	blog	uarch	intel
 Gathering Intel on Intel AVX-512 Transitions	https://travisdowns.github.io/blog/2020/01/17/avxfreq1.html	blog	uarch	intel
@@ -52,3 +52,8 @@ CHE 323 Micro and Nanofabrication (UT Austin)	https://www.youtube.com/playlist?l
 442.048 Information-Theoretic Security (TU Graz)	https://bloch.ece.gatech.edu/itsecfa19/itsecfa19_lectures.html	course	info-theory
 Position Paper: A Case for Exposing Extra-Architectural State in the ISA	https://arch.cs.ucdavis.edu/assets/papers/hasp18-secure-speculation.pdf	papers	uarch
 Keys Under Doormats: Mandating insecurity by requiring government access to all data and communications	https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf	papers	privacy	crypto
+On the Feasibility of Side-Channel Attacks with Brain-Computer Interfaces	https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final56.pdf	papers	brain-computation	side-channels	privacy
+Side-channel attacks against the human brain: the PIN code case study (extended version)	https://link.springer.com/content/pdf/10.1186/s40708-018-0090-1.pdf	brain-computation	privacy	side-channels	papers
+Pattern Recognition in a Bucket	http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.97.3902	papers	brain-computation
+Liquid State Machines: Motivation, Theory, and Applications	https://igi-web.tugraz.at/PDF/189.pdf	papers	brain-computation
+A Survey of Neuromorphic Computing and Neural Networks in Hardware	https://arxiv.org/pdf/1705.06963.pdf	papers	brain-computation	hw-design
