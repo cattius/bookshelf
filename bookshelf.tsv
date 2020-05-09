@@ -58,3 +58,8 @@ Pattern Recognition in a Bucket	http://citeseerx.ist.psu.edu/viewdoc/summary?doi
 Liquid State Machines: Motivation, Theory, and Applications	https://igi-web.tugraz.at/PDF/189.pdf	papers	brain-computation
 A Survey of Neuromorphic Computing and Neural Networks in Hardware	https://arxiv.org/pdf/1705.06963.pdf	papers	brain-computation	hw-design
 Active Measures: The Secret History of Disinformation and Political Warfare	https://www.amazon.co.uk/Active-Measures-History-Disinformation-Political/dp/0374287260	books	cyberwarfare
+Common Pitfalls in Writing about Security and Privacy Human Subjects Experiments, and How to Avoid Them	https://cups.cs.cmu.edu/soups/2010/howtosoups.pdf	papers	usable-security
+Hacking the brain: brain–computer interfacing technology and the ethics of neurosecurity	https://link.springer.com/content/pdf/10.1007/s10676-016-9398-9.pdf	papers	privacy	brain-computation
+Plundervolt: Software-based Fault Injection Attacks against Intel SGX	https://plundervolt.com/doc/plundervolt.pdf	papers	uarch	fault-attacks	intel
+Drammer: Deterministic Rowhammer Attacks on Mobile Platforms	https://vvdveen.com/publications/drammer.pdf	papers	uarch	fault-attacks	arm
+ARMageddon: Cache Attacks on Mobile Devices	https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_lipp.pdf	papers	uarch	cache-attacks	arm
