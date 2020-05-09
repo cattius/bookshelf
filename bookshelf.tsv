@@ -27,7 +27,7 @@ Hardware is the New Software	https://www.microsoft.com/en-us/research/wp-content
 Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication	https://sanamlyastani.github.io/publication/oakland20/oakland20.pdf	papers	usable-security	reading-group
 I Have No Idea What I'm Doing - On the Usability of Deploying HTTPS	https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-krombholz.pdf	papers	usable-security
 If HTTPS Were Secure, I Wouldn't Need 2FA - End User and Administrator Mental Models of HTTPS	https://publications.cispa.saarland/2788/1/HTTPS_Mental_Models%20%2814%29.pdf	papers	usable-security
-I Know Where You Parked Last Summer: Automated Reverse Engineering and Privacy Analysis of Modern Cars	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1j2LgepkJj2	papers	reading-group
+I Know Where You Parked Last Summer: Automated Reverse Engineering and Privacy Analysis of Modern Cars	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1j2LgepkJj2	papers	reading-group	privacy
 IODINE: Verifying Constant-Time Execution of Hardware	https://ranjitjhala.github.io/static/iodine.pdf	papers		uarch	reading-group	side-channels
 Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU	https://download.vusec.net/papers/glitch_sp18.pdf	papers	uarch	reading-group	intel	arm	side-channels
 IJON: Exploring Deep State Spaces via Fuzzing	https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf	papers	reading-group
@@ -47,3 +47,8 @@ CHE 323 Micro and Nanofabrication (UT Austin)	https://www.youtube.com/playlist?l
 263-2210-00L Computer Architecture (ETH Zurich)	https://safari.ethz.ch/architecture/fall2019/doku.php?id=schedule	course	video	uarch
 252-0028-00L Design of Digital Circuits (ETH Zurich)	https://safari.ethz.ch/digitaltechnik/spring2019/doku.php?id=schedule	course	video	hw-design	uarch
 705.046 Embedded Security (TU Graz)	https://teaching.iaik.tugraz.at/embsec/slides	course	uarch	intel	amd	arm	side-channels
+705.044 Digital System Design (TU Graz)	https://www.iaik.tugraz.at/course/digital-system-design-705044-sommersemester-2020/	course	video	hw-design
+705.024 Security Aspects in Software Development (TU Graz)	https://www.iaik.tugraz.at/course/security-aspects-in-software-development-705024-wintersemester-2019-20/	course	ctf
+442.048 Information-Theoretic Security (TU Graz)	https://bloch.ece.gatech.edu/itsecfa19/itsecfa19_lectures.html	course	info-theory
+Position Paper: A Case for Exposing Extra-Architectural State in the ISA	https://arch.cs.ucdavis.edu/assets/papers/hasp18-secure-speculation.pdf	papers	uarch
+Keys Under Doormats: Mandating insecurity by requiring government access to all data and communications	https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf	papers	privacy	crypto
