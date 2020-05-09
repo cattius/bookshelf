@@ -42,3 +42,8 @@ Towards Security Limits in Side-Channel Attacks (With an Application to Block Ci
 Leakage Bounds for Gaussian Side Channels	https://eprint.iacr.org/2017/992.pdf	papers	info-theory	side-channels	crypto
 Capacity of the EM Covert/Side-Channel Created by the Execution of Instructions in a Processor	https://ieeexplore.ieee.org/document/8067449	papers	info-theory	side-channels
 Electromagnetic Side Channel Information Leakage Created by Execution of Series of Instructions in a Computer Processor	https://ieeexplore.ieee.org/document/8763980	papers	info-theory	side-channels
+CHE 323 Micro and Nanofabrication (UT Austin)	https://www.youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo_	course	video	hw-design
+(Mis)configuring page tables	https://www.youtube.com/watch?v=YO9dk5L5FMY	talk	video	intel	amd	
+263-2210-00L Computer Architecture (ETH Zurich)	https://safari.ethz.ch/architecture/fall2019/doku.php?id=schedule	course	video	uarch
+252-0028-00L Design of Digital Circuits (ETH Zurich)	https://safari.ethz.ch/digitaltechnik/spring2019/doku.php?id=schedule	course	video	hw-design	uarch
+705.046	Embedded Security (TU Graz)	https://teaching.iaik.tugraz.at/embsec/slides	course	uarch	intel	amd	arm	side-channels
