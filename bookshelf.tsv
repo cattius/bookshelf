@@ -8,7 +8,7 @@ Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-ar
 CPU Introspection: Intel Load Port Snooping	https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html	blog	uarch	intel	transient-attacks
 A Systematic Evaluation of Transient Execution Attacks and Defences	https://arxiv.org/abs/1811.05441	papers	uarch	x86	arm	transient-attacks
 Fallout: Leaking Data on Meltdown-resistant CPUs	https://mdsattacks.com/files/fallout.pdf	papers	uarch	intel	transient-attacks	trusted-execution	browser-attacks
-ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	uarch	intel	transient-attacks	trsted-execution
+ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	uarch	intel	transient-attacks	trusted-execution
 RIDL: Rogue In-Flight Data Load (With Addenda)	https://mdsattacks.com/files/ridl.pdf	papers	uarch	intel	transient-attacks	trusted-execution	browser-attacks
 Meltdown: Reading Kernel Memory from User Space	https://meltdownattack.com/meltdown.pdf	papers	uarch	x86	arm	transient-attacks	browser-attacks
 Spectre Attacks: Exploiting Speculative Execution	https://spectreattack.com/spectre.pdf	papers	uarch	x86	arm	transient-attacks
