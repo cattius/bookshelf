@@ -6,35 +6,35 @@ Gathering Intel on Intel AVX-512 Transitions	https://travisdowns.github.io/blog/
 Where do interrupts happen?	https://travisdowns.github.io/blog/2019/08/20/interrupts.html	blog	uarch	intel
 Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection	https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html	blog	uarch	intel
 CPU Introspection: Intel Load Port Snooping	https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html	blog	uarch	intel	transient-attacks
-A Systematic Evaluation of Transient Execution Attacks and Defences	https://arxiv.org/abs/1811.05441	papers	uarch	intel	amd	arm	transient-attacks	side-channels
-Fallout: Leaking Data on Meltdown-resistant CPUs	https://mdsattacks.com/files/fallout.pdf	papers	uarch	intel	transient-attacks	side-channels
-ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	uarch	intel	transient-attacks	side-channels
-RIDL: Rogue In-Flight Data Load (With Addenda)	https://mdsattacks.com/files/ridl.pdf	papers	uarch	intel	transient-attacks	side-channels
-Meltdown: Reading Kernel Memory from User Space	https://meltdownattack.com/meltdown.pdf	papers	uarch	intel	amd	arm	transient-attacks	side-channels
-Spectre Attacks: Exploiting Speculative Execution	https://spectreattack.com/spectre.pdf	papers	uarch	intel	amd	arm	transient-attacks	side-channels
-Arm Architecture Reference Manual: Armv8-A v.FA	https://static.docs.arm.com/ddi0487/fa/DDI0487F_a_armv8_arm.pdf	manuals	uarch	arm
-Intel Software Developer Manual, Combined Volumes	https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf	manuals	uarch	intel
+A Systematic Evaluation of Transient Execution Attacks and Defences	https://arxiv.org/abs/1811.05441	papers	uarch	intel	amd	arm	transient-attacks
+Fallout: Leaking Data on Meltdown-resistant CPUs	https://mdsattacks.com/files/fallout.pdf	papers	uarch	intel	transient-attacks
+ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	uarch	intel	transient-attacks
+RIDL: Rogue In-Flight Data Load (With Addenda)	https://mdsattacks.com/files/ridl.pdf	papers	uarch	intel	transient-attacks
+Meltdown: Reading Kernel Memory from User Space	https://meltdownattack.com/meltdown.pdf	papers	uarch	intel	amd	arm	transient-attacks
+Spectre Attacks: Exploiting Speculative Execution	https://spectreattack.com/spectre.pdf	papers	uarch	intel	amd	arm	transient-attacks
+Arm Architecture Reference Manual: Armv8-A v.FA	https://static.docs.arm.com/ddi0487/fa/DDI0487F_a_armv8_arm.pdf	manuals	uarch	arm	isa
+Intel Software Developer Manual, Combined Volumes	https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf	manuals	uarch	intel	isa
 Intel 64 and IA-32 Architectures Optimization Manual	https://software.intel.com/sites/default/files/managed/9e/bc/64-ia-32-architectures-optimization-manual.pdf	manuals	uarch	intel
-AMD64 Architecture Programmer's Manual Volume 1: Application Programming	http://support.amd.com/TechDocs/24592.pdf	manuals	uarch	amd
-AMD64 Architecture Programmer's Manual Volume 2: System Programming	http://support.amd.com/TechDocs/24593.pdf	manuals	uarch	amd
-AMD64 Architecture Programmer's Manual Volume 3: General Purpose and System Instructions	http://support.amd.com/TechDocs/24594.pdf	manuals	uarch	amd
-AMD64 Architecture Programmer's Manual Volume 4: 128-Bit and 256-Bit Media Instructions	http://support.amd.com/TechDocs/26568.pdf       manuals  uarch     amd
-AMD64 Architecture Programmer's Manual Volume 5: 64-Bit Media and x87 Floating-Point Instructions	https://www.amd.com/system/files/TechDocs/26569_APM_V5.pdf	manuals	uarch	amd
+AMD64 Architecture Programmer's Manual Volume 1: Application Programming	http://support.amd.com/TechDocs/24592.pdf	manuals	uarch	amd	isa
+AMD64 Architecture Programmer's Manual Volume 2: System Programming	http://support.amd.com/TechDocs/24593.pdf	manuals	uarch	amd	isa
+AMD64 Architecture Programmer's Manual Volume 3: General Purpose and System Instructions	http://support.amd.com/TechDocs/24594.pdf	manuals	uarch	amd	isa
+AMD64 Architecture Programmer's Manual Volume 4: 128-Bit and 256-Bit Media Instructions	http://support.amd.com/TechDocs/26568.pdf       manuals  uarch     amd	isa
+AMD64 Architecture Programmer's Manual Volume 5: 64-Bit Media and x87 Floating-Point Instructions	https://www.amd.com/system/files/TechDocs/26569_APM_V5.pdf	manuals	uarch	amd	isa
 Getting Started with Bare Metal Assembly (using UEFI services)	https://johv.dk/blog/bare-metal-assembly-tutorial.html	blog	intel	amd
-LVI: Hijacking Transient Execution Through Microarchitectural Load Value Injection	https://lviattack.eu/lvi.pdf	papers	intel	uarch	transient-attacks	side-channels
+LVI: Hijacking Transient Execution Through Microarchitectural Load Value Injection	https://lviattack.eu/lvi.pdf	papers	intel	uarch	transient-attacks
 Are We Referring to the Same x86 64?: Detection of Cache Events in AMD's Zen Micro-architecture	https://ieeexplore.ieee.org/document/8885326	papers	amd	uarch	side-channels
-Hardware is the New Software	https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/baumann-hotos17.pdf	papers	uarch	intel
+Hardware is the New Software	https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/baumann-hotos17.pdf	papers	uarch	intel	isa
 Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication	https://sanamlyastani.github.io/publication/oakland20/oakland20.pdf	papers	usable-security	reading-group
 I Have No Idea What I'm Doing - On the Usability of Deploying HTTPS	https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-krombholz.pdf	papers	usable-security
 If HTTPS Were Secure, I Wouldn't Need 2FA - End User and Administrator Mental Models of HTTPS	https://publications.cispa.saarland/2788/1/HTTPS_Mental_Models%20%2814%29.pdf	papers	usable-security
 I Know Where You Parked Last Summer: Automated Reverse Engineering and Privacy Analysis of Modern Cars	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1j2LgepkJj2	papers	reading-group	privacy
 IODINE: Verifying Constant-Time Execution of Hardware	https://ranjitjhala.github.io/static/iodine.pdf	papers		uarch	reading-group	side-channels
 Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU	https://download.vusec.net/papers/glitch_sp18.pdf	papers	uarch	reading-group	intel	arm	side-channels
-IJON: Exploring Deep State Spaces via Fuzzing	https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf	papers	reading-group
-The Unpatchable Silicon: A Full Break of the Bitstream Encryption of Xilinx 7-Series FPGAs	https://www.usenix.org/system/files/sec20fall_ender_prepub.pdf	papers	crypto	reading-group
-A Bad Dream: Subverting Trusted Platform Module While You Are Sleeping	https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-han.pdf	uarch	papers	reading-group
+IJON: Exploring Deep State Spaces via Fuzzing	https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf	papers
+The Unpatchable Silicon: A Full Break of the Bitstream Encryption of Xilinx 7-Series FPGAs	https://www.usenix.org/system/files/sec20fall_ender_prepub.pdf	papers	crypto
+A Bad Dream: Subverting Trusted Platform Module While You Are Sleeping	https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-han.pdf	uarch	papers
 Prevention of Microarchitectural Covert Channels on an Open-Source 64-bit RISC-V Core	https://arxiv.org/abs/2005.02193	papers	uarch	reading-group	info-theory	side-channels
-Defeating NewHope with a Single Trace	https://eprint.iacr.org/2020/368	papers	crypto	reading-group	side-channels
+Defeating NewHope with a Single Trace	https://eprint.iacr.org/2020/368	papers	crypto	side-channels
 Physically Observable Cryptography	https://www.cs.bu.edu/~reyzin/papers/physec.pdf	papers	info-theory	side-channels	crypto
 A Formal Practice-Oriented Model for the Analysis of Side-Channel Attacks	https://pdfs.semanticscholar.org/e418/00d9c22503cce7da71f20d44733a0e40cd4a.pdf	papers	info-theory	crypto	side-channels
 A Unified Framework for the Analysis of Side-Channel Key Recovery Attacks (extended version v3)	https://eprint.iacr.org/2006/139.pdf	papers	info-theory	crypto	side-channels
@@ -50,8 +50,8 @@ CHE 323 Micro and Nanofabrication (UT Austin)	https://www.youtube.com/playlist?l
 705.044 Digital System Design (TU Graz)	https://www.iaik.tugraz.at/course/digital-system-design-705044-sommersemester-2020/	course	video	hw-design
 705.024 Security Aspects in Software Development (TU Graz)	https://www.iaik.tugraz.at/course/security-aspects-in-software-development-705024-wintersemester-2019-20/	course	ctf
 442.048 Information-Theoretic Security (TU Graz)	https://bloch.ece.gatech.edu/itsecfa19/itsecfa19_lectures.html	course	info-theory
-Position Paper: A Case for Exposing Extra-Architectural State in the ISA	https://arch.cs.ucdavis.edu/assets/papers/hasp18-secure-speculation.pdf	papers	uarch
-Keys Under Doormats: Mandating insecurity by requiring government access to all data and communications	https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf	papers	privacy	crypto
+Position Paper: A Case for Exposing Extra-Architectural State in the ISA	https://arch.cs.ucdavis.edu/assets/papers/hasp18-secure-speculation.pdf	papers	uarch	isa
+Keys Under Doormats: Mandating insecurity by requiring government access to all data and communications	https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf	papers	privacy	crypto	tech-ethics
 On the Feasibility of Side-Channel Attacks with Brain-Computer Interfaces	https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final56.pdf	papers	brain-computation	side-channels	privacy
 Side-channel attacks against the human brain: the PIN code case study (extended version)	https://link.springer.com/content/pdf/10.1186/s40708-018-0090-1.pdf	brain-computation	privacy	side-channels	papers
 Pattern Recognition in a Bucket	http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.97.3902	papers	brain-computation
@@ -59,7 +59,34 @@ Liquid State Machines: Motivation, Theory, and Applications	https://igi-web.tugr
 A Survey of Neuromorphic Computing and Neural Networks in Hardware	https://arxiv.org/pdf/1705.06963.pdf	papers	brain-computation	hw-design
 Active Measures: The Secret History of Disinformation and Political Warfare	https://www.amazon.co.uk/Active-Measures-History-Disinformation-Political/dp/0374287260	books	cyberwarfare
 Common Pitfalls in Writing about Security and Privacy Human Subjects Experiments, and How to Avoid Them	https://cups.cs.cmu.edu/soups/2010/howtosoups.pdf	papers	usable-security
-Hacking the brain: brain–computer interfacing technology and the ethics of neurosecurity	https://link.springer.com/content/pdf/10.1007/s10676-016-9398-9.pdf	papers	privacy	brain-computation
+Hacking the brain: brain–computer interfacing technology and the ethics of neurosecurity	https://link.springer.com/content/pdf/10.1007/s10676-016-9398-9.pdf	papers	privacy	brain-computation	tech-ethics
 Plundervolt: Software-based Fault Injection Attacks against Intel SGX	https://plundervolt.com/doc/plundervolt.pdf	papers	uarch	fault-attacks	intel
 Drammer: Deterministic Rowhammer Attacks on Mobile Platforms	https://vvdveen.com/publications/drammer.pdf	papers	uarch	fault-attacks	arm
 ARMageddon: Cache Attacks on Mobile Devices	https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_lipp.pdf	papers	uarch	cache-attacks	arm
+British diplomatic cipher machines in the early Cold War	https://kclpure.kcl.ac.uk/portal/files/102323196/Protecting_Secrets_British_diplomatic_EASTER_Accepted30October2018_GREEN_AAM.pdf	papers	crypto	side-channels
+20 Years of Covert Channel Modeling and Analysis	https://ieeexplore.ieee.org/document/766906	papers	side-channels
+Architectural Implications of Covert Channels	http://www.csl.sri.com/users/neumann/ncs92.html	papers	side-channels
+Covert Channels - Here to Stay?	https://apps.dtic.mil/dtic/tr/fulltext/u2/a465048.pdf	papers	side-channels
+A Note on the Confinement Problem	https://www.cs.utexas.edu/~shmat/courses/cs380s_fall09/lampson73.pdf	papers	side-channels
+A Practical Approach to Identifying Storage and Timing Channels: Twenty Years Later	https://sites.cs.ucsb.edu/~sherwood/cs290/papers/side-channel-kemmerer.pdf	papers	side-channels
+An Analysis of Covert Timing Channels	https://ieeexplore.ieee.org/abstract/document/130767	papers	side-channels
+Reducing Timing Channels with Fuzzy Time	https://ieeexplore.ieee.org/document/130768	papers	side-channels
+DABANGG: Time for Fearless Flush based Cache Attacks	https://www.cse.iitk.ac.in/users/biswap/DABANGG.pdf	papers	side-channels	uarch	intel	amd
+Flushgeist: Cache Leaks from Beyond the Flush	https://arxiv.org/pdf/2005.13853.pdf	papers	side-channels	uarch	intel
+CacheQuery: Learning Replacement Policies from Hardware Caches	https://mguarnieri.github.io/files/papers/pldi2020.pdf	papers	side-channels	uarch	intel
+AI Forensics: Did the Artificial Intelligence System Do It? Why?	https://arxiv.org/pdf/2005.13635.pdf	papers	tech-ethics	machine-learning
+SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit	https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/scienceAndSecuritySoK.pdf	papers	philosophy	scientific-practice
+Understanding and Mitigating Covert Channels Through Branch Predictors	http://www.cs.wm.edu/~dmitry/assets/files/taco-a10-evtyushkin.pdf	papers	side-channels	uarch	intel
+BranchScope: A New Side-Channel Attack on Directional Branch Predictor	https://www.cs.ucr.edu/~nael/pubs/asplos18.pdf	papers	side-channels	uarch	intel
+MusicID: A Brainwave-based User Authentication System for Internet of Things	https://arxiv.org/pdf/2006.01751.pdf	papers	brain-computation
+An Empirical Study on ARM Disassembly Tools	https://yajin.org/papers/issta20.pdf	papers	isa	obfuscation	arm
+Evolution of the Samsung Exynos CPU Microarchitecture	https://www.iscaconf.org/isca2020/papers/466100a040.pdf	papers	uarch	arm
+DABANGG: Time for Fearless Flush based Cache Attacks	https://www.cse.iitk.ac.in/users/biswap/DABANGG.pdf	papers	uarch	intel	side-channels
+SEVurity: No Security Without Integrity - Breaking Integrity-Free Memory Encryption with Minimal Assumptions	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b746/1j2LgvKzg1q	papers	uarch	amd	side-channels	crypto
+Tweaks and Keys for Block Ciphers: the TWEAKEY Framework	https://eprint.iacr.org/2014/831.pdf	papers	crypto
+FastSpec: Scalable Generation and Detection of Spectre Gadgets Using Neural Embeddings	https://arxiv.org/pdf/2006.14147.pdf	papers	uarch	intel	amd	arm	transient-attacks	neural-networks
+Aggregated Private Information Retrieval: A First Practical Implementation to Support Large-Scale Disease Analytics	https://eprint.iacr.org/2020/522.pdf	papers	crypto	privacy	covid-19
+Architecture for a Multilingual Wikipedia	https://arxiv.org/pdf/2004.04733.pdf	papers	universal-language
+Everything Old is New Again: Binary Security of WebAssembly	http://www.software-lab.org/publications/usenixSec2020-WebAssembly.pdf	papers	browser-attacks
+When a Patch is Not Enough - HardFails: Software-Exploitable Hardware Bugs	https://arxiv.org/pdf/1812.00197.pdf	papers	uarch	hw-design
+Speculative Interference Attacks: Breaking Invisible Speculation Schemes	https://arxiv.org/abs/2007.11818	papers	uarch	intel	transient-attacks	hw-design
