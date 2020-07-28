@@ -4,14 +4,14 @@ Does register selection matter to performance on x86 CPUs?	https://fiigii.com/20
 A note on mask registers	https://travisdowns.github.io/blog/2019/12/05/kreg-facts.html	blog	uarch	intel
 Gathering Intel on Intel AVX-512 Transitions	https://travisdowns.github.io/blog/2020/01/17/avxfreq1.html	blog	uarch	intel
 Where do interrupts happen?	https://travisdowns.github.io/blog/2019/08/20/interrupts.html	blog	uarch	intel
-Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection	https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html	blog	uarch	intel
+Sushi Roll: A CPU research kernel with minimal noise for cycle-by-cycle micro-architectural introspection	https://gamozolabs.github.io/metrology/2019/08/19/sushi_roll.html	blog	uarch	intel	operating-systems
 CPU Introspection: Intel Load Port Snooping	https://gamozolabs.github.io/metrology/2019/12/30/load-port-monitor.html	blog	uarch	intel	transient-attacks
-A Systematic Evaluation of Transient Execution Attacks and Defences	https://arxiv.org/abs/1811.05441	papers	uarch	intel	amd	arm	transient-attacks
-Fallout: Leaking Data on Meltdown-resistant CPUs	https://mdsattacks.com/files/fallout.pdf	papers	uarch	intel	transient-attacks
-ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	uarch	intel	transient-attacks
-RIDL: Rogue In-Flight Data Load (With Addenda)	https://mdsattacks.com/files/ridl.pdf	papers	uarch	intel	transient-attacks
-Meltdown: Reading Kernel Memory from User Space	https://meltdownattack.com/meltdown.pdf	papers	uarch	intel	amd	arm	transient-attacks
-Spectre Attacks: Exploiting Speculative Execution	https://spectreattack.com/spectre.pdf	papers	uarch	intel	amd	arm	transient-attacks
+A Systematic Evaluation of Transient Execution Attacks and Defences	https://arxiv.org/abs/1811.05441	papers	uarch	x86	arm	transient-attacks
+Fallout: Leaking Data on Meltdown-resistant CPUs	https://mdsattacks.com/files/fallout.pdf	papers	uarch	intel	transient-attacks	trusted-execution	browser-attacks
+ZombieLoad: Cross-Privilege-Boundary Data Sampling	https://zombieloadattack.com/zombieload.pdf	papers	uarch	intel	transient-attacks	trsted-execution
+RIDL: Rogue In-Flight Data Load (With Addenda)	https://mdsattacks.com/files/ridl.pdf	papers	uarch	intel	transient-attacks	trusted-execution	browser-attacks
+Meltdown: Reading Kernel Memory from User Space	https://meltdownattack.com/meltdown.pdf	papers	uarch	x86	arm	transient-attacks	browser-attacks
+Spectre Attacks: Exploiting Speculative Execution	https://spectreattack.com/spectre.pdf	papers	uarch	x86	arm	transient-attacks
 Arm Architecture Reference Manual: Armv8-A v.FA	https://static.docs.arm.com/ddi0487/fa/DDI0487F_a_armv8_arm.pdf	manuals	uarch	arm	isa
 Intel Software Developer Manual, Combined Volumes	https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf	manuals	uarch	intel	isa
 Intel 64 and IA-32 Architectures Optimization Manual	https://software.intel.com/sites/default/files/managed/9e/bc/64-ia-32-architectures-optimization-manual.pdf	manuals	uarch	intel
@@ -20,7 +20,7 @@ AMD64 Architecture Programmer's Manual Volume 2: System Programming	http://suppo
 AMD64 Architecture Programmer's Manual Volume 3: General Purpose and System Instructions	http://support.amd.com/TechDocs/24594.pdf	manuals	uarch	amd	isa
 AMD64 Architecture Programmer's Manual Volume 4: 128-Bit and 256-Bit Media Instructions	http://support.amd.com/TechDocs/26568.pdf       manuals  uarch     amd	isa
 AMD64 Architecture Programmer's Manual Volume 5: 64-Bit Media and x87 Floating-Point Instructions	https://www.amd.com/system/files/TechDocs/26569_APM_V5.pdf	manuals	uarch	amd	isa
-Getting Started with Bare Metal Assembly (using UEFI services)	https://johv.dk/blog/bare-metal-assembly-tutorial.html	blog	intel	amd
+Getting Started with Bare Metal Assembly (using UEFI services)	https://johv.dk/blog/bare-metal-assembly-tutorial.html	blog	x86	firmware
 LVI: Hijacking Transient Execution Through Microarchitectural Load Value Injection	https://lviattack.eu/lvi.pdf	papers	intel	uarch	transient-attacks
 Are We Referring to the Same x86 64?: Detection of Cache Events in AMD's Zen Micro-architecture	https://ieeexplore.ieee.org/document/8885326	papers	amd	uarch	side-channels
 Hardware is the New Software	https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/baumann-hotos17.pdf	papers	uarch	intel	isa
@@ -30,9 +30,9 @@ If HTTPS Were Secure, I Wouldn't Need 2FA - End User and Administrator Mental Mo
 I Know Where You Parked Last Summer: Automated Reverse Engineering and Privacy Analysis of Modern Cars	https://www.computer.org/csdl/proceedings-article/sp/2020/349700b184/1j2LgepkJj2	papers	reading-group	privacy
 IODINE: Verifying Constant-Time Execution of Hardware	https://ranjitjhala.github.io/static/iodine.pdf	papers		uarch	reading-group	side-channels
 Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU	https://download.vusec.net/papers/glitch_sp18.pdf	papers	uarch	reading-group	intel	arm	side-channels
-IJON: Exploring Deep State Spaces via Fuzzing	https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf	papers
+IJON: Exploring Deep State Spaces via Fuzzing	https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf	papers	fuzzing
 The Unpatchable Silicon: A Full Break of the Bitstream Encryption of Xilinx 7-Series FPGAs	https://www.usenix.org/system/files/sec20fall_ender_prepub.pdf	papers	crypto
-A Bad Dream: Subverting Trusted Platform Module While You Are Sleeping	https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-han.pdf	uarch	papers
+A Bad Dream: Subverting Trusted Platform Module While You Are Sleeping	https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-han.pdf	uarch	papers	firmware	x86
 Prevention of Microarchitectural Covert Channels on an Open-Source 64-bit RISC-V Core	https://arxiv.org/abs/2005.02193	papers	uarch	reading-group	info-theory	side-channels
 Defeating NewHope with a Single Trace	https://eprint.iacr.org/2020/368	papers	crypto	side-channels
 Physically Observable Cryptography	https://www.cs.bu.edu/~reyzin/papers/physec.pdf	papers	info-theory	side-channels	crypto
@@ -42,12 +42,12 @@ Towards Security Limits in Side-Channel Attacks (With an Application to Block Ci
 Leakage Bounds for Gaussian Side Channels	https://eprint.iacr.org/2017/992.pdf	papers	info-theory	side-channels	crypto
 Capacity of the EM Covert/Side-Channel Created by the Execution of Instructions in a Processor	https://ieeexplore.ieee.org/document/8067449	papers	info-theory	side-channels
 Electromagnetic Side Channel Information Leakage Created by Execution of Series of Instructions in a Computer Processor	https://ieeexplore.ieee.org/document/8763980	papers	info-theory	side-channels
-CHE 323 Micro and Nanofabrication (UT Austin)	https://www.youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo_	course	video	hw-design
-(Mis)configuring page tables	https://www.youtube.com/watch?v=YO9dk5L5FMY	talk	video	intel	amd	
-263-2210-00L Computer Architecture (ETH Zurich)	https://safari.ethz.ch/architecture/fall2019/doku.php?id=schedule	course	video	uarch
-252-0028-00L Design of Digital Circuits (ETH Zurich)	https://safari.ethz.ch/digitaltechnik/spring2019/doku.php?id=schedule	course	video	hw-design	uarch
-705.046 Embedded Security (TU Graz)	https://teaching.iaik.tugraz.at/embsec/slides	course	uarch	intel	amd	arm	side-channels
-705.044 Digital System Design (TU Graz)	https://www.iaik.tugraz.at/course/digital-system-design-705044-sommersemester-2020/	course	video	hw-design
+CHE 323 Micro and Nanofabrication (UT Austin)	https://www.youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo_	course	hw-design
+(Mis)configuring page tables	https://www.youtube.com/watch?v=YO9dk5L5FMY	talk	x86	
+263-2210-00L Computer Architecture (ETH Zurich)	https://safari.ethz.ch/architecture/fall2019/doku.php?id=schedule	course	uarch
+252-0028-00L Design of Digital Circuits (ETH Zurich)	https://safari.ethz.ch/digitaltechnik/spring2019/doku.php?id=schedule	course	hw-design	uarch
+705.046 Embedded Security (TU Graz)	https://teaching.iaik.tugraz.at/embsec/slides	course	uarch	x86	arm	side-channels	trusted-execution
+705.044 Digital System Design (TU Graz)	https://www.iaik.tugraz.at/course/digital-system-design-705044-sommersemester-2020/	course	hw-design
 705.024 Security Aspects in Software Development (TU Graz)	https://www.iaik.tugraz.at/course/security-aspects-in-software-development-705024-wintersemester-2019-20/	course	ctf
 442.048 Information-Theoretic Security (TU Graz)	https://bloch.ece.gatech.edu/itsecfa19/itsecfa19_lectures.html	course	info-theory
 Position Paper: A Case for Exposing Extra-Architectural State in the ISA	https://arch.cs.ucdavis.edu/assets/papers/hasp18-secure-speculation.pdf	papers	uarch	isa
@@ -60,9 +60,9 @@ A Survey of Neuromorphic Computing and Neural Networks in Hardware	https://arxiv
 Active Measures: The Secret History of Disinformation and Political Warfare	https://www.amazon.co.uk/Active-Measures-History-Disinformation-Political/dp/0374287260	books	cyberwarfare
 Common Pitfalls in Writing about Security and Privacy Human Subjects Experiments, and How to Avoid Them	https://cups.cs.cmu.edu/soups/2010/howtosoups.pdf	papers	usable-security
 Hacking the brain: brain–computer interfacing technology and the ethics of neurosecurity	https://link.springer.com/content/pdf/10.1007/s10676-016-9398-9.pdf	papers	privacy	brain-computation	tech-ethics
-Plundervolt: Software-based Fault Injection Attacks against Intel SGX	https://plundervolt.com/doc/plundervolt.pdf	papers	uarch	fault-attacks	intel
+Plundervolt: Software-based Fault Injection Attacks against Intel SGX	https://plundervolt.com/doc/plundervolt.pdf	papers	uarch	fault-attacks	intel	trusted-execution
 Drammer: Deterministic Rowhammer Attacks on Mobile Platforms	https://vvdveen.com/publications/drammer.pdf	papers	uarch	fault-attacks	arm
-ARMageddon: Cache Attacks on Mobile Devices	https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_lipp.pdf	papers	uarch	cache-attacks	arm
+ARMageddon: Cache Attacks on Mobile Devices	https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_lipp.pdf	papers	uarch	arm
 British diplomatic cipher machines in the early Cold War	https://kclpure.kcl.ac.uk/portal/files/102323196/Protecting_Secrets_British_diplomatic_EASTER_Accepted30October2018_GREEN_AAM.pdf	papers	crypto	side-channels
 20 Years of Covert Channel Modeling and Analysis	https://ieeexplore.ieee.org/document/766906	papers	side-channels
 Architectural Implications of Covert Channels	http://www.csl.sri.com/users/neumann/ncs92.html	papers	side-channels
@@ -90,3 +90,7 @@ Architecture for a Multilingual Wikipedia	https://arxiv.org/pdf/2004.04733.pdf	p
 Everything Old is New Again: Binary Security of WebAssembly	http://www.software-lab.org/publications/usenixSec2020-WebAssembly.pdf	papers	browser-attacks
 When a Patch is Not Enough - HardFails: Software-Exploitable Hardware Bugs	https://arxiv.org/pdf/1812.00197.pdf	papers	uarch	hw-design
 Speculative Interference Attacks: Breaking Invisible Speculation Schemes	https://arxiv.org/abs/2007.11818	papers	uarch	intel	transient-attacks	hw-design
+UEFI Boot for Mere Mortals	https://www.youtube.com/watch?v=6jt1nNWAwEk	talk	x86	firmware
+Coreboot: x86 system boot and initialization	Coreboot: x86 system boot and initialization	talk	x86	firmware
+Fuzz Week 2020	https://www.youtube.com/watch?v=2xXt_q3Fex8	talk	fuzzing
+Chocolate Milk: Rust x86-64 Bootloader and Kernel	talk	operating-systems	x86	firmware
